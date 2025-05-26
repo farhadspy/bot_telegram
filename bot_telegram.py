@@ -7,7 +7,6 @@ from telebot import types
 
 
 
-
 my_keyboard = types.ReplyKeyboardMarkup(row_width=3)
 key1 = types.KeyboardButton("back")
 key2 = types.KeyboardButton("forward")
