@@ -21,7 +21,7 @@ my_keyboard.add(key1,key2,key3,key4,key5,key6)
 
 
 
-bot = telebot.TeleBot("7941375184:AAGMZxKJzODhHjaIHl231gMM2yt8uKJPbdE", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+bot = telebot.TeleBot("your key", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
 
 
 @bot.message_handler(commands=['start', 'help'])
